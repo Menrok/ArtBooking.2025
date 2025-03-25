@@ -10,9 +10,9 @@ public class Ticket
         
     [ForeignKey("ScheduleItem")]
     public int ScheduleItemId { get; set; }
-    public ScheduleItem ScheduleItem { get; set; }
+    public ScheduleItem? ScheduleItem { get; set; }
         
     [ForeignKey("Seat")]
     public int SeatId { get; set; }
-    public Seat Seat { get; set; }
+    public Seat? Seat { get; set; }
 }

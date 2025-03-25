@@ -11,5 +11,5 @@ public class PriceEntry
         
     [ForeignKey("PriceList")]
     public int PriceListId { get; set; }
-    public PriceList PriceList { get; set; }
+    public PriceList? PriceList { get; set; }
 }
